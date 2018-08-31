@@ -635,37 +635,6 @@ Wire Wire Line
 Connection ~ 9950 850 
 Wire Wire Line
 	11100 2150 11100 2050
-$Comp
-L stmbl:R R162
-U 1 1 58871945
-P 8450 2600
-F 0 "R162" V 8530 2600 50  0000 C CNN
-F 1 "1k" V 8450 2600 50  0000 C CNN
-F 2 "stmbl:R_0603" V 8380 2600 30  0001 C CNN
-F 3 "" H 8450 2600 30  0000 C CNN
-F 4 "" H 8450 2600 50  0001 C CNN "Manufacturer No"
-F 5 "" H 8450 2600 50  0001 C CNN "Voltage"
-F 6 "" H 8450 2600 50  0001 C CNN "Source"
-F 7 "1%" H 8450 2600 50  0001 C CNN "Tolerance"
-F 8 "" H 0   0   50  0001 C CNN "Description"
-F 9 "" H 0   0   50  0001 C CNN "InternalName"
-F 10 "" H 0   0   50  0001 C CNN "Manufacturer"
-	1    8450 2600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L stmbl:GNDPWR #PWR011
-U 1 1 58871DBC
-P 8700 2600
-F 0 "#PWR011" H 8700 2400 50  0001 C CNN
-F 1 "GNDPWR" H 8700 2470 50  0000 C CNN
-F 2 "" H 8700 2550 60  0000 C CNN
-F 3 "" H 8700 2550 60  0000 C CNN
-	1    8700 2600
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8700 2600 8600 2600
 Wire Wire Line
 	8300 2600 8200 2600
 Text Notes 2350 1500 1    60   ~ 0

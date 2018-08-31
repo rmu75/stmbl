@@ -717,9 +717,9 @@ F 3 "" H 5500 5650 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text HLabel 10500 4000 2    60   Input ~ 0
-USB_DP
+USB_P
 Text HLabel 10500 3900 2    60   Input ~ 0
-USB_DM
+USB_N
 Text HLabel 11000 4400 2    60   Input ~ 0
 HV_EN
 Text HLabel 9100 3500 0    60   Input ~ 0
@@ -737,9 +737,9 @@ SWDIO
 Text HLabel 8150 6700 0    60   Input ~ 0
 SWCLK
 Text HLabel 3200 5750 0    60   Input ~ 0
-USB_DP
+USB_P
 Text HLabel 3200 5550 0    60   Input ~ 0
-USB_DM
+USB_N
 Text HLabel 5500 5550 2    60   Input ~ 0
 IO_TX
 Text HLabel 5500 5750 2    60   Input ~ 0
@@ -1082,11 +1082,11 @@ $EndComp
 Wire Wire Line
 	7300 5050 7300 5150
 Text HLabel 7800 5550 2    60   Input ~ 0
-USB_DM
+USB_N
 Wire Wire Line
 	7800 5550 7700 5550
 Text HLabel 7800 5650 2    60   Input ~ 0
-USB_DP
+USB_P
 Wire Wire Line
 	7800 5650 7700 5650
 Text HLabel 5800 6600 0    60   Input ~ 0

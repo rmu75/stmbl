@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name stmbl)(type KiCad)(uri "$(KIPRJMOD)/../lib/stmbl.lib")(options "")(descr ""))
+  (lib (name stmbl)(type Legacy)(uri "$(KIPRJMOD)/../lib/stmbl.lib")(options "")(descr ""))
+  (lib (name stgib)(type Legacy)(uri /home/robert/kicad/stgib.lib)(options "")(descr ""))
 )
