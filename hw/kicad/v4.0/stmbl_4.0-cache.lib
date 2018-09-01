@@ -1203,19 +1203,6 @@ C 0 0 150 0 1 0 N
 ENDDRAW
 ENDDEF
 #
-# stmbl:testpoint
-#
-DEF stmbl:testpoint T 0 40 Y Y 1 F N
-F0 "T" 0 100 60 H V C CNN
-F1 "stmbl:testpoint" 0 -100 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-C 0 0 71 0 1 0 N
-X ~ 1 -200 0 200 R 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
 # stmbl:zldo1117
 #
 DEF stmbl:zldo1117 U 0 30 Y Y 1 F N

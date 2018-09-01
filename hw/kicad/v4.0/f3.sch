@@ -460,78 +460,6 @@ A_IV
 Text HLabel 10500 3500 2    60   Input ~ 0
 A_IU
 $Comp
-L stmbl:testpoint T45
-U 1 1 57750CEC
-P 11250 3200
-F 0 "T45" H 11250 3300 60  0000 C CNN
-F 1 "testpoint" H 11250 3100 60  0000 C CNN
-F 2 "stmbl:Measurement_Point_Round-SMD-Pad_Small" H 11250 3200 60  0001 C CNN
-F 3 "" H 11250 3200 60  0000 C CNN
-F 4 "" H 11250 3200 60  0001 C CNN "InternalName"
-F 5 "" H 11250 3200 60  0001 C CNN "Manufacturer No"
-F 6 "" H 11250 3200 60  0001 C CNN "Voltage"
-F 7 "" H 11250 3200 60  0001 C CNN "Source"
-F 8 "" H 11250 3200 60  0001 C CNN "Tolerance"
-F 9 "" H 0   0   50  0001 C CNN "Description"
-F 10 "" H 0   0   50  0001 C CNN "Manufacturer"
-	1    11250 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L stmbl:testpoint T44
-U 1 1 57751000
-P 11250 3000
-F 0 "T44" H 11250 3100 60  0000 C CNN
-F 1 "testpoint" H 11250 2900 60  0000 C CNN
-F 2 "stmbl:Measurement_Point_Round-SMD-Pad_Small" H 11250 3000 60  0001 C CNN
-F 3 "" H 11250 3000 60  0000 C CNN
-F 4 "" H 11250 3000 60  0001 C CNN "InternalName"
-F 5 "" H 11250 3000 60  0001 C CNN "Manufacturer No"
-F 6 "" H 11250 3000 60  0001 C CNN "Voltage"
-F 7 "" H 11250 3000 60  0001 C CNN "Source"
-F 8 "" H 11250 3000 60  0001 C CNN "Tolerance"
-F 9 "" H 0   0   50  0001 C CNN "Description"
-F 10 "" H 0   0   50  0001 C CNN "Manufacturer"
-	1    11250 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L stmbl:testpoint T46
-U 1 1 5775117B
-P 11250 3400
-F 0 "T46" H 11250 3500 60  0000 C CNN
-F 1 "testpoint" H 11250 3300 60  0000 C CNN
-F 2 "stmbl:Measurement_Point_Round-SMD-Pad_Small" H 11250 3400 60  0001 C CNN
-F 3 "" H 11250 3400 60  0000 C CNN
-F 4 "" H 11250 3400 60  0001 C CNN "InternalName"
-F 5 "" H 11250 3400 60  0001 C CNN "Manufacturer No"
-F 6 "" H 11250 3400 60  0001 C CNN "Voltage"
-F 7 "" H 11250 3400 60  0001 C CNN "Source"
-F 8 "" H 11250 3400 60  0001 C CNN "Tolerance"
-F 9 "" H 0   0   50  0001 C CNN "Description"
-F 10 "" H 0   0   50  0001 C CNN "Manufacturer"
-	1    11250 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L stmbl:testpoint T1
-U 1 1 57751F4A
-P 8400 2900
-F 0 "T1" H 8400 3000 60  0000 C CNN
-F 1 "testpoint" H 8400 2800 60  0000 C CNN
-F 2 "stmbl:Measurement_Point_Round-SMD-Pad_Small" H 8400 2900 60  0001 C CNN
-F 3 "" H 8400 2900 60  0000 C CNN
-F 4 "" H 8400 2900 60  0001 C CNN "InternalName"
-F 5 "" H 8400 2900 60  0001 C CNN "Manufacturer No"
-F 6 "" H 8400 2900 60  0001 C CNN "Voltage"
-F 7 "" H 8400 2900 60  0001 C CNN "Source"
-F 8 "" H 8400 2900 60  0001 C CNN "Tolerance"
-F 9 "" H 0   0   50  0001 C CNN "Description"
-F 10 "" H 0   0   50  0001 C CNN "Manufacturer"
-	1    8400 2900
-	-1   0    0    1   
-$EndComp
-$Comp
 L stmbl:LED D1
 U 1 1 5776010E
 P 10900 3600
@@ -716,10 +644,6 @@ F 3 "" H 5500 5650 60  0000 C CNN
 	1    5500 5650
 	0    1    1    0   
 $EndComp
-Text HLabel 10500 4000 2    60   Input ~ 0
-USB_P
-Text HLabel 10500 3900 2    60   Input ~ 0
-USB_N
 Text HLabel 11000 4400 2    60   Input ~ 0
 HV_EN
 Text HLabel 9100 3500 0    60   Input ~ 0
@@ -736,10 +660,6 @@ Text HLabel 8150 6500 0    60   Input ~ 0
 SWDIO
 Text HLabel 8150 6700 0    60   Input ~ 0
 SWCLK
-Text HLabel 3200 5750 0    60   Input ~ 0
-USB_P
-Text HLabel 3200 5550 0    60   Input ~ 0
-USB_N
 Text HLabel 5500 5550 2    60   Input ~ 0
 IO_TX
 Text HLabel 5500 5750 2    60   Input ~ 0
@@ -907,10 +827,6 @@ Wire Wire Line
 Wire Wire Line
 	9100 3900 9200 3900
 Wire Wire Line
-	10400 3900 10500 3900
-Wire Wire Line
-	10400 4000 10500 4000
-Wire Wire Line
 	10400 4300 10500 4300
 Wire Wire Line
 	11000 4400 10900 4400
@@ -969,126 +885,6 @@ Wire Wire Line
 	5400 5750 5500 5750
 Wire Wire Line
 	5500 5550 5400 5550
-$Comp
-L stmbl:USB_OTG P11
-U 1 1 582597E3
-P 6900 5650
-F 0 "P11" H 7225 5525 50  0000 C CNN
-F 1 "USB_OTG" H 6900 5850 50  0000 C CNN
-F 2 "stmbl:USB_Micro-B" V 6850 5550 50  0001 C CNN
-F 3 "" V 6850 5550 50  0000 C CNN
-F 4 "" V 6850 5550 50  0001 C CNN "InternalName"
-F 5 "105017-0001" V 6850 5550 50  0001 C CNN "Manufacturer No"
-F 6 "" V 6850 5550 50  0001 C CNN "Voltage"
-F 7 "https://de.aliexpress.com/item/Wholesale-100Pcs-lot-5-Pins-Micro-USB-SMD-Female-USB-PCB-Connector-Socket-USB-Jack-Plug/1840320498.html" V 6850 5550 50  0001 C CNN "Source"
-F 8 "" V 6850 5550 50  0001 C CNN "Tolerance"
-F 9 "" H 0   0   50  0001 C CNN "Description"
-F 10 "Molex" H 0   0   50  0001 C CNN "Manufacturer"
-	1    6900 5650
-	0    -1   1    0   
-$EndComp
-$Comp
-L stmbl:GNDPWR #PWR033
-U 1 1 5825A690
-P 6800 6250
-F 0 "#PWR033" H 6800 6050 50  0001 C CNN
-F 1 "GNDPWR" H 6800 6120 50  0000 C CNN
-F 2 "" H 6800 6200 60  0000 C CNN
-F 3 "" H 6800 6200 60  0000 C CNN
-	1    6800 6250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6800 6050 6800 6150
-$Comp
-L stmbl:R R151
-U 1 1 5825AC16
-P 7550 5550
-F 0 "R151" V 7630 5550 50  0000 C CNN
-F 1 "22" V 7550 5550 50  0000 C CNN
-F 2 "stmbl:R_0603" V 7480 5550 30  0001 C CNN
-F 3 "" H 7550 5550 30  0000 C CNN
-F 4 "" H 7550 5550 30  0001 C CNN "InternalName"
-F 5 "" H 7550 5550 30  0001 C CNN "Manufacturer No"
-F 6 "" H 7550 5550 30  0001 C CNN "Voltage"
-F 7 "" H 7550 5550 30  0001 C CNN "Source"
-F 8 "1%" H 7550 5550 30  0001 C CNN "Tolerance"
-F 9 "" H 0   0   50  0001 C CNN "Description"
-F 10 "" H 0   0   50  0001 C CNN "Manufacturer"
-	1    7550 5550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6800 6150 7300 6150
-Wire Wire Line
-	7300 6150 7300 5850
-Wire Wire Line
-	7300 5850 7200 5850
-Connection ~ 6800 6150
-$Comp
-L stmbl:R R152
-U 1 1 5825B725
-P 7550 5650
-F 0 "R152" V 7630 5650 50  0000 C CNN
-F 1 "22" V 7550 5650 50  0000 C CNN
-F 2 "stmbl:R_0603" V 7480 5650 30  0001 C CNN
-F 3 "" H 7550 5650 30  0000 C CNN
-F 4 "" H 7550 5650 30  0001 C CNN "InternalName"
-F 5 "" H 7550 5650 30  0001 C CNN "Manufacturer No"
-F 6 "" H 7550 5650 30  0001 C CNN "Voltage"
-F 7 "" H 7550 5650 30  0001 C CNN "Source"
-F 8 "1%" H 7550 5650 30  0001 C CNN "Tolerance"
-F 9 "" H 0   0   50  0001 C CNN "Description"
-F 10 "" H 0   0   50  0001 C CNN "Manufacturer"
-	1    7550 5650
-	0    1    1    0   
-$EndComp
-$Comp
-L stmbl:R R150
-U 1 1 5825B8D4
-P 7300 5300
-F 0 "R150" V 7380 5300 50  0000 C CNN
-F 1 "1.5k" V 7300 5300 50  0000 C CNN
-F 2 "stmbl:R_0603" V 7230 5300 30  0001 C CNN
-F 3 "" H 7300 5300 30  0000 C CNN
-F 4 "" H 7300 5300 30  0001 C CNN "InternalName"
-F 5 "" H 7300 5300 30  0001 C CNN "Manufacturer No"
-F 6 "" H 7300 5300 30  0001 C CNN "Voltage"
-F 7 "" H 7300 5300 30  0001 C CNN "Source"
-F 8 "1%" H 7300 5300 30  0001 C CNN "Tolerance"
-F 9 "" H 0   0   50  0001 C CNN "Description"
-F 10 "" H 0   0   50  0001 C CNN "Manufacturer"
-	1    7300 5300
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7200 5650 7300 5650
-Wire Wire Line
-	7200 5550 7400 5550
-Wire Wire Line
-	7300 5450 7300 5650
-Connection ~ 7300 5650
-$Comp
-L stmbl:+3.3VP #PWR034
-U 1 1 5825BBE2
-P 7300 5050
-F 0 "#PWR034" H 7450 5000 50  0001 C CNN
-F 1 "+3.3VP" H 7300 5150 50  0000 C CNN
-F 2 "" H 7300 5050 60  0000 C CNN
-F 3 "" H 7300 5050 60  0000 C CNN
-	1    7300 5050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7300 5050 7300 5150
-Text HLabel 7800 5550 2    60   Input ~ 0
-USB_N
-Wire Wire Line
-	7800 5550 7700 5550
-Text HLabel 7800 5650 2    60   Input ~ 0
-USB_P
-Wire Wire Line
-	7800 5650 7700 5650
 Text HLabel 5800 6600 0    60   Input ~ 0
 IO_TX
 Text HLabel 5800 6700 0    60   Input ~ 0
@@ -1199,8 +995,6 @@ $EndComp
 Wire Wire Line
 	10500 2800 10400 2800
 NoConn ~ 10450 6700
-NoConn ~ 7200 5450
-NoConn ~ 7200 5750
 Wire Wire Line
 	10400 3800 10500 3800
 Wire Wire Line
@@ -1294,28 +1088,6 @@ Wire Wire Line
 	11450 4100 11900 4100
 Wire Wire Line
 	11450 4000 11900 4000
-Wire Wire Line
-	6800 6150 6800 6250
-Wire Wire Line
-	7300 5650 7400 5650
-$Comp
-L stmbl:testpoint T2
-U 1 1 5AC8A042
-P 11250 2800
-F 0 "T2" H 11250 2900 60  0000 C CNN
-F 1 "testpoint" H 11250 2700 60  0000 C CNN
-F 2 "stmbl:Measurement_Point_Round-SMD-Pad_Small" H 11250 2800 60  0001 C CNN
-F 3 "" H 11250 2800 60  0000 C CNN
-F 4 "" H 11250 2800 60  0001 C CNN "InternalName"
-F 5 "" H 11250 2800 60  0001 C CNN "Manufacturer No"
-F 6 "" H 11250 2800 60  0001 C CNN "Voltage"
-F 7 "" H 11250 2800 60  0001 C CNN "Source"
-F 8 "" H 11250 2800 60  0001 C CNN "Tolerance"
-F 9 "" H 0   0   50  0001 C CNN "Description"
-F 10 "" H 0   0   50  0001 C CNN "Manufacturer"
-	1    11250 2800
-	1    0    0    -1  
-$EndComp
 $Comp
 L stmbl:GNDPWR #PWR0230
 U 1 1 5AC90312
@@ -1361,4 +1133,48 @@ Wire Wire Line
 	9100 500  11350 500 
 Text HLabel 9100 3000 0    60   Input ~ 0
 BRK
+Wire Wire Line
+	11050 2800 11050 3000
+Wire Wire Line
+	11050 3000 11050 3200
+Connection ~ 11050 3000
+Wire Wire Line
+	11050 3200 11050 3400
+Connection ~ 11050 3200
+$Comp
+L stmbl:GNDPWR #PWR0234
+U 1 1 5B8BC59B
+P 8600 2900
+F 0 "#PWR0234" H 8600 2700 50  0001 C CNN
+F 1 "GNDPWR" H 8600 2770 50  0000 C CNN
+F 2 "" H 8600 2850 60  0000 C CNN
+F 3 "" H 8600 2850 60  0000 C CNN
+	1    8600 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 5650 3200 5550
+Connection ~ 3200 5650
+Wire Wire Line
+	3200 5650 3200 5750
+$Comp
+L stmbl:GNDPWR #PWR?
+U 1 1 5B8CEC02
+P 10650 3950
+F 0 "#PWR?" H 10650 3750 50  0001 C CNN
+F 1 "GNDPWR" H 10650 3820 50  0000 C CNN
+F 2 "" H 10650 3900 60  0000 C CNN
+F 3 "" H 10650 3900 60  0000 C CNN
+	1    10650 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10650 3900 10650 3950
+Wire Wire Line
+	10400 3900 10650 3900
+Wire Wire Line
+	10400 4000 10650 4000
+Connection ~ 10650 3950
+Wire Wire Line
+	10650 3950 10650 4000
 $EndSCHEMATC

@@ -19,8 +19,8 @@ L stmbl:CP C21
 U 1 1 56590C91
 P 1600 2600
 F 0 "C21" H 1625 2700 50  0000 L CNN
-F 1 "560µ" H 1625 2500 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D30.0mm_P10.00mm_SnapIn" H 1638 2450 30  0001 C CNN
+F 1 "270µ" H 1625 2500 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D26.0mm_P10.00mm_SnapIn" H 1638 2450 30  0001 C CNN
 F 3 "" H 1600 2600 60  0000 C CNN
 F 4 "ESMR401VSN561MA30S" H 1600 2600 60  0001 C CNN "Manufacturer No"
 F 5 "400V" H 1600 2600 60  0001 C CNN "Voltage"
@@ -304,7 +304,7 @@ F 8 "" H 1050 1150 60  0001 C CNN "Tolerance"
 F 9 "" H -2850 -800 50  0001 C CNN "Description"
 F 10 "Phoenix" H -2850 -800 50  0001 C CNN "Manufacturer"
 	1    1050 1150
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L stmbl:GNDPWR #PWR059
@@ -701,7 +701,27 @@ Wire Wire Line
 	10250 3450 10550 3450
 Connection ~ 10250 3450
 Wire Wire Line
-	1600 2450 2200 2450
+	1600 2450 1900 2450
 Wire Wire Line
-	1600 2750 2200 2750
+	1600 2750 1900 2750
+$Comp
+L stmbl:CP C22
+U 1 1 5B899BC1
+P 1900 2600
+F 0 "C22" H 1925 2700 50  0000 L CNN
+F 1 "270µ" H 1925 2500 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D26.0mm_P10.00mm_SnapIn" H 1938 2450 30  0001 C CNN
+F 3 "" H 1900 2600 60  0000 C CNN
+F 4 "ESMR401VSN561MA30S" H 1900 2600 60  0001 C CNN "Manufacturer No"
+F 5 "400V" H 1900 2600 60  0001 C CNN "Voltage"
+F 6 "United Chemi-Con" H -1150 -1800 50  0001 C CNN "Manufacturer"
+	1    1900 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 1900 2450
+Wire Wire Line
+	1900 2450 2200 2450
+Connection ~ 1900 2750
+Wire Wire Line
+	1900 2750 2200 2750
 $EndSCHEMATC
